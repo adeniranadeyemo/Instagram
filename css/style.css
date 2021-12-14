@@ -9,12 +9,14 @@ body {
   color: white;
 }
 
+/* Instagram */
 .Ig{
   padding: 5px 0px;
   margin: 0px 5px;
   color: white;
 }
 
+/* Handle and icons */
 .Ig .first{
   display: flex;
   justify-content: space-between;
@@ -47,6 +49,16 @@ body {
   margin-right: 15px;
 }
 
+.sfirst .add{
+  border: 2px solid white;
+  padding: 0px;
+  height: 27px;
+  border-radius: 8px;
+}
+/* Handle and icons end*/
+
+/* Middle section */
+/* Profile photo, posts, followers and followings  */
 .circle{
   display: flex;
 }
@@ -74,7 +86,9 @@ body {
   margin: 80px 0px 0px 20px;
   text-align: center;
 }
+/* Profile photo, posts, followers and followings end*/
 
+/* Edit profile */
 .middle .pro{
   display: flex;
   margin-top: 30px;
@@ -83,21 +97,91 @@ body {
 .pro p{
   width: 92%;
   height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 130px;
-  border: 1px solid grey;
-  border-radius: 5px;
 }
 
 .pro span{
   width: 8%;
   height: 30px;
-  font-size: 20px;
-  margin: 15px 0px 0px 7px;
   border: 1px solid grey;
   border-radius: 5px;
+  font-size: 20px;
+  margin: 15px 0px 0px 7px;
   padding-top: 3px;
   padding-left: 3px;
   font-weight: lighter;
+}
+/* Edit profile ends */
+
+/* Highlights */
+.higlights{
+  margin-top: -20px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+}
+
+.higlights span{
+  margin-top: 15px;
+  font-size: 15px;
+}
+/* Highlights end */
+
+/* Stories */
+.circles{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.new-story{
+  display: block;
+}
+
+.circles span{
+  height: 60px;
+  width: 60px;
+  margin-top: -3px;
+  left: 35px;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 15px 14px 15px 14px;
+}
+
+.new-story p{
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.circles .round{
+  margin-top: -3px;
+  width: 55px;
+  height: 55px;
+  background-color: #727272;
+  border-radius: 50%;
+}
+/* Stories end */
+
+/* Posts and tags */
+.posts-and-tags{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.posts-and-tags .tag{
+  background-color: grey;
+  color: grey; 
+}
+
+.line{
+  width: 50%;
+  height: 1px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -5px;
 }
