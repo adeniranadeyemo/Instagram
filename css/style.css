@@ -216,7 +216,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   position: fixed;
-  margin-top: 280px;
+  margin-top: 300px;
   width: 100%;
   margin-left: -5px;
   background-color: black;
@@ -227,3 +227,4 @@ body {
   font-size: 30px;
   margin-top: 3px;
 }
+/* Last icons end */
