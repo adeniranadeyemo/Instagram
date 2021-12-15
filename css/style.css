@@ -11,7 +11,7 @@ body {
 
 /* Instagram */
 .Ig{
-  padding: 5px 0px;
+  padding: 0px 0px;
   margin: 0px 5px;
   color: white;
 }
@@ -21,11 +21,12 @@ body {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  margin-top: -10px;
   width: 100%;
+  background-color: black;
 }
 
 .first .ffirst{
-  /* width: 50%; */
   display: flex;
   justify-content: space-between;
 }
@@ -47,6 +48,8 @@ body {
 
 .first .sfirst span:nth-child(2){
   margin-right: 15px;
+  font-size: 35px;
+  margin-top: -3px;
 }
 
 .sfirst .add{
@@ -63,23 +66,24 @@ body {
   display: flex;
 }
 
- .circle .fmiddle{
-  width: 85px;
-  height: 85px;
-  margin-top: 65px;
+.circle .pfp{
+  display: block;
+  margin-top: 70px;
+}
+
+.circle span{
+  font-size: 80px;
+  background-color: white;
   border-radius: 50%;
-  background-color :white;
-  position: relative;
 }
 
 .circle .ub{
-  position: absolute;
-  top: 150px;
+  margin-top: 5px;
 }
 
 .circle .pandf{
   display: flex;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .circle .pandf p{
@@ -91,7 +95,7 @@ body {
 /* Edit profile */
 .middle .pro{
   display: flex;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .pro p{
@@ -174,8 +178,7 @@ body {
 }
 
 .posts-and-tags .tag{
-  background-color: grey;
-  color: grey; 
+  color: grey;
 }
 
 .line{
@@ -184,4 +187,43 @@ body {
   background-color: white;
   margin-top: 10px;
   margin-left: -5px;
+}
+/* Posts and tags end*/
+
+/* Pictures */
+.pictures{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 3px;
+  /* background-color: black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+
+.pictures .pic{
+ background-color: grey;
+ height: 110px;
+}
+
+/* Pictures end */
+
+/* Last icons  */
+.last .last-icons{
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  margin-top: 280px;
+  width: 100%;
+  margin-left: -5px;
+  background-color: black;
+  height: 100px;
+}
+
+.last-icons span{
+  font-size: 30px;
+  margin-top: 3px;
 }
